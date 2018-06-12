@@ -7,6 +7,8 @@ import urllib
 
 bg_img_dic = {}
 slider_img_dic = {}
+collision = 10
+
 
 def get_bg_slider_img(m):
 
@@ -19,11 +21,11 @@ def get_bg_slider_img(m):
     dr = webdriver.Firefox(executable_path=utility.firefox_driver_path)
 
     # record the image have loaded
-    global bg_img_dic, slider_img_dic
+    global bg_img_dic, slider_img_dic, collision
 
     # start firefox
     dr.get(utility.url)
-    t.sleep(5)
+    t.sleep(3)
 
     bg_img_element = dr.find_element_by_xpath(bg_xpath)
     slider_img_element = dr.find_element_by_xpath(slider_xpath)
@@ -55,10 +57,21 @@ def get_bg_slider_img(m):
         f_bg.close()
         f_slider.close()
 
+    else:
+        collision -= 1
+
     dr.close()
 
 
 if __name__ == "__main__":
 
-    get_bg_slider_img(1)
+    global collision
+
+    for i in range(100):
+        if collision == 0:
+            print('collision get max!..')
+            break
+        else:
+            print('Download...: '+ str(i))
+            get_bg_slider_img(i)
 
