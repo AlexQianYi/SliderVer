@@ -9,7 +9,7 @@ url = 'https://id.163yun.com/login?referrer=https://dun.163.com/dashboard&h=yd&f
 firefox_driver_path = '/Users/yiqian/Downloads/geckodriver'
 
 # bg image save path
-bg_img_file = './BgImg'
+bg_img_file = './BgImg/'
 
 # slider image save path
-slider_img_file = './SliderImg'
+slider_img_file = './SliderImg/'

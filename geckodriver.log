@@ -5627,3 +5627,21 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-110853334-1, 
 2018-06-12 14:14:37.193 firefox-bin[28725:5450223] IMKInputSession [0x134b69ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x127d5c7c0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.SCIM
 2018-06-12 14:16:40.657 firefox-bin[28725:5450223] IMKInputSession [0x1399ce160 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x127d5c7c0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
 2018-06-12 14:16:40.695 firefox-bin[28725:5450223] IMKInputSession [0x134b69ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x127d5c7c0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.SCIM
+2018-06-12 14:21:04.504 firefox-bin[28725:5450223] IMKInputSession [0x1399ce160 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x127d5c7c0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2018-06-12 14:21:04.534 firefox-bin[28725:5450223] IMKInputSession [0x134b69ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x127d5c7c0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.SCIM
+1528784669845	geckodriver	INFO	geckodriver 0.20.1
+1528784669850	geckodriver	INFO	Listening on 127.0.0.1:54367
+1528784670870	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nq/0mpynycd6mg_8903k89bx5f00000gn/T/rust_mozprofile.AyD2xAQgSNmk"
+2018-06-12 14:24:32.052 plugin-container[31515:5784199] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-12 14:24:32.162 plugin-container[31515:5784199] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x86db, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528784672511	Marionette	INFO	Listening on port 54380
+1528784672541	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-12 14:24:33.196 plugin-container[31516:5784281] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7503, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-12 14:24:33.328 plugin-container[31516:5784281] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x751f, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-110853334-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-110853334-1, line 69: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
