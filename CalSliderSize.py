@@ -1,22 +1,18 @@
 import cv2
-import numpy as np
-import matplotlib.pyplot as plt
 from PIL import Image
 import CompareImg
 
 
-def calculate_slider_size():
+def calculate_slider_size(img):
 
-    slider_img = cv2.imread('./SliderImg/1.png')
-    bg_img = cv2.imread('./BgImg/1.jpg')
+    """
+    calculate the parameters of slider image
+    :param img: slider image file
+    :return:  the x,y,height,width of slider image
+    """
 
-    rows, cols, channels = slider_img.shape
-
-    point = []
-
+    rows, cols, channels = img.shape
     square_top, square_bottom, square_left, square_right = 0, 0, 0, 0
-    ear_top, ear_bottom, ear_left, ear_right = 0, 0, 0, 0
-
 
     # find top of square
     for i in range(1, rows):
@@ -69,6 +65,20 @@ def calculate_slider_size():
         if count > 20:
             square_right = j
             break
+
+
+    return square_left, square_top, square_bottom-square_top, square_right-square_left
+
+
+def temp():
+
+    slider_img = cv2.imread('./SliderImg/1.png')
+    bg_img = cv2.imread('./BgImg/1.jpg')
+
+
+
+
+
 
     # find top of ear
     for i in range(rows):
