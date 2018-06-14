@@ -2,10 +2,8 @@ import CalSliderSize
 import cv2
 import HashCompareImg
 
-if __name__ == '__main__':
 
-    # single image file
-    slider_img = cv2.imread('./SliderImg/1.png')
+def find_slider_position(slider_img, bg_img):
 
     slider_x, slider_y, slider_height,slider_width = 0,0,0,0
     slider_x, slider_y, slider_height, slider_width = CalSliderSize.calculate_slider_size(slider_img)
@@ -13,8 +11,6 @@ if __name__ == '__main__':
     # cut slider image
     slider_cut_img = slider_img[slider_y+20:slider_y+40, slider_x+20:slider_x+40]
 
-    # bg image
-    bg_image = cv2.imread('./BgImg/1.jpg')
     bg_y, bg_x, bg_channel = bg_image.shape
 
     minHash = 20*20
@@ -34,3 +30,19 @@ if __name__ == '__main__':
             minIndex = i-20
 
     print(minHash, minIndex)
+
+    return minIndex
+
+
+if __name__ == '__main__':
+
+    # single image file
+    slider_img = cv2.imread('./SliderImg/2.png')
+
+    # bg image
+    bg_image = cv2.imread('./BgImg/2.jpg')
+
+    find_slider_position(slider_img, bg_image)
+
+
+

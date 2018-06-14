@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5106e8a-ca73-4a6b-bfcd-429f74818c0e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MatchImage.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CompareImg.py" afterPath="$PROJECT_DIR$/HashCompareImg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.png" afterPath="$PROJECT_DIR$/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MoveSlider.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SeleniumTest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/VisitBgImg.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CalSliderSize.py" afterPath="$PROJECT_DIR$/CalSliderSize.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FindSliderPos.py" afterPath="$PROJECT_DIR$/FindSliderPos.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpiderImg.py" afterPath="$PROJECT_DIR$/SpiderImg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility.py" afterPath="$PROJECT_DIR$/utility.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,13 +20,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpiderImg.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpiderImg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpiderImg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
               <folding>
-                <element signature="e#15#45#0" expanded="true" />
+                <element signature="e#16#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveSlider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MoveSlider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,19 +56,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalSliderSize.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalSliderSize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalSliderSize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2128">
-              <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="175" selection-end-column="27" />
+            <state relative-caret-position="570">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <element signature="e#421#776#0" expanded="false" />
                 <element signature="e#846#1204#0" expanded="false" />
                 <element signature="e#1263#1619#0" expanded="false" />
                 <element signature="e#1689#2048#0" expanded="false" />
-                <element signature="e#2305#2534#0" expanded="false" />
-                <marker date="1528957496368" expanded="false" signature="2598:2832" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,8 +75,8 @@
       <file leaf-file-name="FindSliderPos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FindSliderPos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="627">
+              <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -76,22 +87,14 @@
       <file leaf-file-name="HashCompareImg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HashCompareImg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="e#33#458#0" expanded="false" />
                 <element signature="e#481#806#0" expanded="false" />
+                <element signature="e#840#997#0" expanded="false" />
+                <element signature="e#1031#1278#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VisitBgImg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VisitBgImg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -99,8 +102,8 @@
       <file leaf-file-name="utility.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="380">
+              <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -122,15 +125,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SeleniumTest.py" />
-        <option value="$PROJECT_DIR$/utility.py" />
-        <option value="$PROJECT_DIR$/SpiderImg.py" />
         <option value="$PROJECT_DIR$/MatchImage.py" />
         <option value="$PROJECT_DIR$/CenterOfShape.py" />
         <option value="$PROJECT_DIR$/CompareImg.py" />
         <option value="$PROJECT_DIR$/CompareImg2.py" />
         <option value="$PROJECT_DIR$/VisitBgImg.py" />
-        <option value="$PROJECT_DIR$/CalSliderSize.py" />
+        <option value="$PROJECT_DIR$/SpiderImg.py" />
+        <option value="$PROJECT_DIR$/utility.py" />
+        <option value="$PROJECT_DIR$/MoveSlider.py" />
         <option value="$PROJECT_DIR$/FindSliderPos.py" />
+        <option value="$PROJECT_DIR$/CalSliderSize.py" />
       </list>
     </option>
   </component>
@@ -326,6 +330,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="477" y="96" width="1252" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08865815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -361,9 +366,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -375,24 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CenterOfShape.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -401,12 +386,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MatchImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VisitBgImg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashCompareImg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#33#458#0" expanded="false" />
+            <element signature="e#481#806#0" expanded="false" />
+            <element signature="e#840#997#0" expanded="false" />
+            <element signature="e#1031#1278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpiderImg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#16#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -421,56 +451,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VisitBgImg.py">
+    <entry file="file://$PROJECT_DIR$/MoveSlider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HashCompareImg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="492">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="e#33#458#0" expanded="false" />
-            <element signature="e#481#806#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalSliderSize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="175" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#421#776#0" expanded="false" />
-            <element signature="e#846#1204#0" expanded="false" />
-            <element signature="e#1263#1619#0" expanded="false" />
-            <element signature="e#1689#2048#0" expanded="false" />
-            <element signature="e#2305#2534#0" expanded="false" />
-            <marker date="1528957496368" expanded="false" signature="2598:2832" ph="..." />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FindSliderPos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="627">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatchImage.py">
+    <entry file="file://$PROJECT_DIR$/CalSliderSize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="570">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#421#776#0" expanded="false" />
+            <element signature="e#846#1204#0" expanded="false" />
+            <element signature="e#1263#1619#0" expanded="false" />
+            <element signature="e#1689#2048#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

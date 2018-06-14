@@ -1,5 +1,3 @@
-# coding:utf-8
-
 from selenium import webdriver
 import time as t
 import utility
@@ -7,36 +5,27 @@ import urllib
 
 bg_img_dic = {}
 slider_img_dic = {}
-collision = 10
+m = 0
 
-
-def get_bg_slider_img(m):
-
-    # bg img xpath
-    bg_xpath = '//*[@id="bg"]/div[2]/div/div/div/div/div[1]/form/div[3]/div/div/div[1]/div/div[1]/img[1]'
-    # slider img xpath
-    slider_xpath = '//*[@id="bg"]/div[2]/div/div/div/div/div[1]/form/div[3]/div/div/div[1]/div/div[1]/img[2]'
+def move_slider(distance):
 
     # launch firefox
     dr = webdriver.Firefox(executable_path=utility.firefox_driver_path)
 
-    # record the image have loaded
-    global bg_img_dic, slider_img_dic, collision
-
     # start firefox
     dr.get(utility.url)
-    t.sleep(3)
 
-    bg_img_element = dr.find_element_by_xpath(bg_xpath)
-    slider_img_element = dr.find_element_by_xpath(slider_xpath)
+    # find two elements
+    bg_img_element = dr.find_element_by_xpath(utility.bg_xpath)
+    slider_img_element = dr.find_element_by_xpath(utility.slider_xpath)
 
+    # get url of two elements
     bg_img_url = bg_img_element.get_attribute('src')
     slider_img_url = slider_img_element.get_attribute('src')
 
-    if bg_img_url != None and not bg_img_url in bg_img_dic:
+    global bg_img_dic, slider_img_dic, m
 
-        bg_img_dic[bg_img_url] = ''
-        slider_img_dic[slider_img_url] = ''
+    if bg_img_url != None and not bg_img_url in bg_img_dic:
 
         bg_img_ext = bg_img_url.split('.')[-1]                      # .jpg
         slider_img_ext = slider_img_url.split('.')[-1]              # .png
@@ -57,21 +46,5 @@ def get_bg_slider_img(m):
         f_bg.close()
         f_slider.close()
 
-    else:
-        collision -= 1
-
-    dr.close()
-
-
-if __name__ == "__main__":
-
-    global collision
-
-    for i in range(100):
-        if collision == 0:
-            print('collision get max!..')
-            break
-        else:
-            print('Download...: '+ str(i))
-            get_bg_slider_img(i)
+        m += 1
 

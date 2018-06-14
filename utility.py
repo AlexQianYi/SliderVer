@@ -13,3 +13,9 @@ bg_img_file = './BgImg/'
 
 # slider image save path
 slider_img_file = './SliderImg/'
+
+# slider xpath
+slider_xpath = '//*[@id="bg"]/div[2]/div/div/div/div/div[1]/form/div[3]/div/div/div[1]/div/div[1]/img[2]'
+
+# bg img xpath
+bg_xpath = '//*[@id="bg"]/div[2]/div/div/div/div/div[1]/form/div[3]/div/div/div[1]/div/div[1]/img[1]'
