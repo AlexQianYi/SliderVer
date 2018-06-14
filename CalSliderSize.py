@@ -1,9 +1,9 @@
 import cv2
 from PIL import Image
-import CompareImg
+import HashCompareImg
 
 
-def calculate_slider_size(img):
+def calculate_slider_size(slider_img):
 
     """
     calculate the parameters of slider image
@@ -11,7 +11,7 @@ def calculate_slider_size(img):
     :return:  the x,y,height,width of slider image
     """
 
-    rows, cols, channels = img.shape
+    rows, cols, channels = slider_img.shape
     square_top, square_bottom, square_left, square_right = 0, 0, 0, 0
 
     # find top of square
@@ -145,8 +145,8 @@ def visit_bg_image():
 
     end_left = 480-60
 
-    slider_x = square_start_left
-    slider_y = square_start_top
+    slider_x = 5
+    slider_y = 162
     w = 20
     h = 20
 
@@ -160,7 +160,7 @@ def visit_bg_image():
 
     img1 = cv2.imread('./1.png')
 
-    hash1 = CompareImg.aHash(img1)
+    hash1 = HashCompareImg.aHash(img1)
 
     for i in range(end_left):
         print('compare: '+str(i))
@@ -168,8 +168,8 @@ def visit_bg_image():
         cut_bg = bg_img.crop((start_x+i, start_y, start_x+i+20, start_y+20))
         cut_bg.save('./CutBg/'+str(i)+'.png')
         img2 = cv2.imread('./CutBg/'+str(i)+'.png')
-        hash2 = CompareImg.aHash(img2)
-        n = CompareImg.cmpHash(hash1, hash2)
+        hash2 = HashCompareImg.aHash(img2)
+        n = HashCompareImg.cmpHash(hash1, hash2)
         print(n)
         if n<minHash:
             minHash = n

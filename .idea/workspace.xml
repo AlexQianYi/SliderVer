@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5106e8a-ca73-4a6b-bfcd-429f74818c0e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FindSliderPos.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MatchImage.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CompareImg.py" afterPath="$PROJECT_DIR$/HashCompareImg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.png" afterPath="$PROJECT_DIR$/3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CalSliderSize.py" afterPath="$PROJECT_DIR$/CalSliderSize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FindSliderPos.py" afterPath="$PROJECT_DIR$/FindSliderPos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,25 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpiderImg.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpiderImg.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpiderImg.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2">
               <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
               <folding>
                 <element signature="e#15#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchImage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatchImage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,20 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalSliderSize.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalSliderSize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalSliderSize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+            <state relative-caret-position="2128">
+              <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="175" selection-end-column="27" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#90#2119#0" expanded="false" />
-                <element signature="e#403#758#0" expanded="false" />
-                <element signature="e#828#1186#0" expanded="false" />
-                <element signature="e#1245#1601#0" expanded="false" />
-                <element signature="e#1671#2030#0" expanded="false" />
-                <element signature="e#2287#2516#0" expanded="false" />
-                <marker date="1528946827740" expanded="false" signature="2580:2814" ph="..." />
+                <element signature="e#421#776#0" expanded="false" />
+                <element signature="e#846#1204#0" expanded="false" />
+                <element signature="e#1263#1619#0" expanded="false" />
+                <element signature="e#1689#2048#0" expanded="false" />
+                <element signature="e#2305#2534#0" expanded="false" />
+                <marker date="1528957496368" expanded="false" signature="2598:2832" ph="..." />
               </folding>
             </state>
           </provider>
@@ -73,8 +64,8 @@
       <file leaf-file-name="FindSliderPos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FindSliderPos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="494">
+              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -82,12 +73,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompareImg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CompareImg.py">
+      <file leaf-file-name="HashCompareImg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HashCompareImg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="65" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="171">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="e#33#458#0" expanded="false" />
+                <element signature="e#481#806#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,14 +129,15 @@
         <option value="$PROJECT_DIR$/CompareImg.py" />
         <option value="$PROJECT_DIR$/CompareImg2.py" />
         <option value="$PROJECT_DIR$/VisitBgImg.py" />
-        <option value="$PROJECT_DIR$/FindSliderPos.py" />
         <option value="$PROJECT_DIR$/CalSliderSize.py" />
+        <option value="$PROJECT_DIR$/FindSliderPos.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="118" />
-    <option name="width" value="1680" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="477" />
+    <option name="y" value="96" />
+    <option name="width" value="1252" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -213,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CalSliderSize">
+  <component name="RunManager" selected="Python.FindSliderPos">
     <configuration name="CalSliderSize" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,7 +238,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SliderVer" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CompareImg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HashCompareImg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,6 +260,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="FindSliderPos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SliderVer" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FindSliderPos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="MatchImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,37 +294,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="SpiderImg" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SliderVer" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpiderImg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.SpiderImg" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MatchImage" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CalSliderSize" />
-      <item index="3" class="java.lang.String" itemvalue="Python.CompareImg" />
-      <item index="4" class="java.lang.String" itemvalue="Python.CompareImg2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.MatchImage" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CalSliderSize" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CompareImg" />
+      <item index="3" class="java.lang.String" itemvalue="Python.CompareImg2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.FindSliderPos" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.CalSliderSize" />
-        <item index="1" class="java.lang.String" itemvalue="Python.CompareImg2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CompareImg" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MatchImage" />
-        <item index="4" class="java.lang.String" itemvalue="Python.SpiderImg" />
+        <item index="0" class="java.lang.String" itemvalue="Python.FindSliderPos" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CalSliderSize" />
+        <item index="2" class="java.lang.String" itemvalue="Python.CompareImg2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CompareImg" />
+        <item index="4" class="java.lang.String" itemvalue="Python.MatchImage" />
       </list>
     </recent_temporary>
   </component>
@@ -330,13 +325,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="477" y="96" width="1252" height="1027" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06607143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08865815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.359" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37591624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -357,7 +351,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -405,16 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatchImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpiderImg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -435,14 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CompareImg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="65" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VisitBgImg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -451,30 +429,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FindSliderPos.py">
+    <entry file="file://$PROJECT_DIR$/HashCompareImg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="171">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#33#458#0" expanded="false" />
+            <element signature="e#481#806#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalSliderSize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        <state relative-caret-position="2128">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="175" selection-end-column="27" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#90#2119#0" expanded="false" />
-            <element signature="e#403#758#0" expanded="false" />
-            <element signature="e#828#1186#0" expanded="false" />
-            <element signature="e#1245#1601#0" expanded="false" />
-            <element signature="e#1671#2030#0" expanded="false" />
-            <element signature="e#2287#2516#0" expanded="false" />
-            <marker date="1528946827740" expanded="false" signature="2580:2814" ph="..." />
+            <element signature="e#421#776#0" expanded="false" />
+            <element signature="e#846#1204#0" expanded="false" />
+            <element signature="e#1263#1619#0" expanded="false" />
+            <element signature="e#1689#2048#0" expanded="false" />
+            <element signature="e#2305#2534#0" expanded="false" />
+            <marker date="1528957496368" expanded="false" signature="2598:2832" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FindSliderPos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatchImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
