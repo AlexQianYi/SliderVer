@@ -76,7 +76,7 @@ def calculate_distance():
         distance = bg_img_dic[bg_img_url]
 
 
-    move_slider(dr, distance/2)
+    #move_slider(dr, distance/2)
 
 
 def move_slider(dr, distance):
