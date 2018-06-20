@@ -1,12 +1,10 @@
 from selenium import webdriver
-import time as t
 import utility
 import urllib
 import cv2
 import FindSliderPos
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import UnexpectedAlertPresentException
-from time import sleep
 
 bg_img_dic = {}
 slider_img_dic = {}
@@ -142,6 +140,6 @@ def move_slider(dr, distance):
 
 if __name__ == '__main__':
 
-    print('a')
+    print('b')
 
-    calculate_distance()
+    #calculate_distance()

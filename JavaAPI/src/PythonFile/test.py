@@ -6,4 +6,6 @@ Created on Wed Jun 20 16:41:12 2018
 @author: yiqian
 """
 
-print('a')
+
+if __name__ == '__main__':
+    print('a')
