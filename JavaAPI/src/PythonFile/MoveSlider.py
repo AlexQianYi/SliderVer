@@ -14,11 +14,17 @@ m = 0
 
 def calculate_distance():
 
-    # launch firefox
-    dr = webdriver.Firefox(executable_path=utility.firefox_driver_path)
-
-    # start firefox
-    dr.get(utility.url)
+    print('start')
+    try:
+        # launch firefox
+        dr = webdriver.Firefox(executable_path=utility.firefox_driver_path)
+    
+        # start firefox
+        dr.get(utility.url)
+    except:
+        print('browser open fail')
+    else:
+        print('browser open succeed')
 
     # find two elements
     bg_img_element = dr.find_element_by_xpath(utility.bg_xpath)
@@ -128,5 +134,5 @@ def move_slider(dr, distance):
 
 if __name__ == '__main__':
 
-
-    calculate_distance()
+    print('t')
+    #calculate_distance()
