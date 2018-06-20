@@ -14,19 +14,33 @@ m = 0
 
 def calculate_distance():
 
-    # launch firefox
-    dr = webdriver.Firefox(executable_path=utility.firefox_driver_path)
+    
+    try:
+        # launch firefox
+        dr = webdriver.Firefox(executable_path=utility.firefox_driver_path)
 
-    # start firefox
-    dr.get(utility.url)
+        # start firefox
+        dr.get(utility.url)
+    
+    except:
+        print('browser open fail')
+    else:
+        print('browser open succeed')
 
-    # find two elements
-    bg_img_element = dr.find_element_by_xpath(utility.bg_xpath)
-    slider_img_element = dr.find_element_by_xpath(utility.slider_xpath)
 
-    # get url of two elements
-    bg_img_url = bg_img_element.get_attribute('src')
-    slider_img_url = slider_img_element.get_attribute('src')
+    try:
+        # find two elements
+        bg_img_element = dr.find_element_by_xpath(utility.bg_xpath)
+        slider_img_element = dr.find_element_by_xpath(utility.slider_xpath)
+    
+        # get url of two elements
+        bg_img_url = bg_img_element.get_attribute('src')
+        slider_img_url = slider_img_element.get_attribute('src')
+        
+    except:
+        print('find two eles fail')
+    else:
+        print('find two eles succeed')
 
     global bg_img_dic, slider_img_dic, m
 
@@ -128,5 +142,6 @@ def move_slider(dr, distance):
 
 if __name__ == '__main__':
 
+    print('a')
 
     calculate_distance()

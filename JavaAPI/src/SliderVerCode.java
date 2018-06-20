@@ -34,14 +34,13 @@ public class SliderVerCode {
 	
 	private void FindSlidePos() {
 		
-		//Process p = null;
+		Process p = null;
 		
 		try {
-			//String[] args = new String[] {"python", "./PythonFile/MoveSlider.py";
-			String python_main_file = "python /Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py";
+			String[] args = new String[] {"python", "/Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/test.py"};
+			//String python_main_file = "python /Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py";
 			System.out.println('a');
-			//p = 
-					Runtime.getRuntime().exec(python_main_file);
+			p = Runtime.getRuntime().exec(args);
 			String s;
 			
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(p.getInputStream()));
@@ -60,8 +59,8 @@ public class SliderVerCode {
 			//while ((line = input.readLine())!= null) {
 			//	System.out.print(line);
 			//}
-			Thread.currentThread().sleep(1000);
-			//System.out.println(p.exitValue());
+			//Thread.currentThread().sleep(1000);
+			System.out.println(p.waitFor());
 		}catch(Exception e) {
 			
 			e.printStackTrace();
