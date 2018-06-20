@@ -39,8 +39,9 @@ public class SliderVerCode {
 		try {
 			String[] args = new String[] {"python", "/Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py"};
 			//String python_main_file = "python /Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py";
+			String info = "import urllib";
 			System.out.println('a');
-			p = Runtime.getRuntime().exec(args);
+			p = Runtime.getRuntime().exec(info);
 			String s;
 			
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(p.getInputStream()));
