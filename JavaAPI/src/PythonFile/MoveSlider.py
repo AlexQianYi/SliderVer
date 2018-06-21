@@ -1,12 +1,11 @@
 from selenium import webdriver
-import time as t
-import utility
-import urllib
 import cv2
 import FindSliderPos
+import urllib
+import utility
+
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import UnexpectedAlertPresentException
-from time import sleep
 
 bg_img_dic = {}
 slider_img_dic = {}
@@ -26,13 +25,19 @@ def calculate_distance():
     else:
         print('browser open succeed')
 
-    # find two elements
-    bg_img_element = dr.find_element_by_xpath(utility.bg_xpath)
-    slider_img_element = dr.find_element_by_xpath(utility.slider_xpath)
 
-    # get url of two elements
-    bg_img_url = bg_img_element.get_attribute('src')
-    slider_img_url = slider_img_element.get_attribute('src')
+    try:
+        # find two elements
+        bg_img_element = dr.find_element_by_xpath(utility.bg_xpath)
+        slider_img_element = dr.find_element_by_xpath(utility.slider_xpath)
+    
+        # get url of two elements
+        bg_img_url = bg_img_element.get_attribute('src')
+        slider_img_url = slider_img_element.get_attribute('src')
+    except:
+        print('find elements fail')
+    else:
+        print('find elements succeed')
 
     global bg_img_dic, slider_img_dic, m
 
@@ -69,9 +74,6 @@ def calculate_distance():
         # bg image
         bg_image = cv2.imread(bg_path)
 
-        #cv2.imshow("bg", bg_image)
-        #cv2.imshow("slider", slider_img)
-        #cv2.waitKey(0)
 
         distance = FindSliderPos.find_slider_position(slider_img, bg_image)
         print(distance)
@@ -135,4 +137,4 @@ def move_slider(dr, distance):
 if __name__ == '__main__':
 
     print('t')
-    #calculate_distance()
+    calculate_distance()

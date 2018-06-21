@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5106e8a-ca73-4a6b-bfcd-429f74818c0e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/BgImg/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/CalSliderSize.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/FindSliderPos.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/HashCompareImg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/MoveSlider.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/SliderImg/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaAPI/PythonFile/utility.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaAPI/src/PythonFile/MoveSlider.py" afterPath="$PROJECT_DIR$/JavaAPI/src/PythonFile/MoveSlider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaAPI/src/SliderVerCode.java" afterPath="$PROJECT_DIR$/JavaAPI/src/SliderVerCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility.py" afterPath="$PROJECT_DIR$/utility.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaAPI/src/geckodriver.log" afterPath="$PROJECT_DIR$/JavaAPI/src/geckodriver.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,7 +62,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1529548505875" expanded="true" signature="103:246" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1529548505875" expanded="true" signature="345:503" ph="..." />
+                <marker date="1529548505875" expanded="true" signature="2466:2599" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1529548505875" expanded="true" signature="2624:2781" ph="..." />
+                <marker date="1529548505875" expanded="true" signature="2637:2715" ph="..." />
+                <marker date="1529548505875" expanded="true" signature="2805:2962" ph="..." />
+                <marker date="1529548505875" expanded="true" signature="2818:2896" ph="..." />
+                <marker date="1529548505875" expanded="true" signature="2985:3140" ph="..." />
+                <marker date="1529548505875" expanded="true" signature="2998:3074" ph="..." />
+                <marker date="1529548505875" expanded="true" signature="3229:3271" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,12 +115,13 @@
         <option value="$PROJECT_DIR$/MoveSlider.py" />
         <option value="$PROJECT_DIR$/utility.py" />
         <option value="$PROJECT_DIR$/JavaAPI/PythonFile/utility.py" />
+        <option value="$PROJECT_DIR$/JavaAPI/src/PythonFile/MoveSlider.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="127" />
-    <option name="y" value="168" />
+    <option name="x" value="721" />
+    <option name="y" value="43" />
     <option name="width" value="1252" />
     <option name="height" value="1027" />
   </component>
@@ -331,7 +310,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="168" width="1252" height="1027" extended-state="1" />
+    <frame x="721" y="43" width="1252" height="1027" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08865815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -432,7 +411,7 @@
         <state relative-caret-position="1387">
           <caret line="81" column="10" lean-forward="false" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -516,7 +495,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,7 +546,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1529548505875" expanded="true" signature="103:246" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1529548505875" expanded="true" signature="345:503" ph="..." />
+            <marker date="1529548505875" expanded="true" signature="2466:2599" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1529548505875" expanded="true" signature="2624:2781" ph="..." />
+            <marker date="1529548505875" expanded="true" signature="2637:2715" ph="..." />
+            <marker date="1529548505875" expanded="true" signature="2805:2962" ph="..." />
+            <marker date="1529548505875" expanded="true" signature="2818:2896" ph="..." />
+            <marker date="1529548505875" expanded="true" signature="2985:3140" ph="..." />
+            <marker date="1529548505875" expanded="true" signature="2998:3074" ph="..." />
+            <marker date="1529548505875" expanded="true" signature="3229:3271" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

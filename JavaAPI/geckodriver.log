@@ -62,3 +62,18 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 See /usr/include/servers/bootstrap_defs.h for the error codes.
 2018-06-20 17:00:44.916 firefox-bin[8936:937000] IMKInputSession [0x13871b670 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x132b210a0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
 2018-06-20 17:00:44.943 firefox-bin[8936:937000] IMKInputSession [0x115322f70 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x132b210a0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.SCIM
+1529562204953	geckodriver	INFO	geckodriver 0.20.1
+1529562204962	geckodriver	INFO	Listening on 127.0.0.1:57010
+1529562205984	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nq/0mpynycd6mg_8903k89bx5f00000gn/T/rust_mozprofile.i99YFzZWFt9J"
+2018-06-21 14:23:27.304 plugin-container[11433:2315089] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-21 14:23:27.492 plugin-container[11433:2315089] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1827, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1529562207890	Marionette	INFO	Listening on port 57017
+1529562207988	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-21 14:23:28.356 plugin-container[11434:2315271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8803, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-21 14:23:28.463 plugin-container[11434:2315271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x171b, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-110853334-1, line 68: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-110853334-1, line 68: unreachable code after return statement

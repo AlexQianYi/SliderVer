@@ -31,7 +31,7 @@ def find_slider_position(slider_img, bg_img):
 
     return minIndex
 
-
+"""
 if __name__ == '__main__':
 
     # single image file
@@ -41,6 +41,6 @@ if __name__ == '__main__':
     bg_image = cv2.imread('./BgImg/2.jpg')
 
     find_slider_position(slider_img, bg_image)
-
+"""
 
 

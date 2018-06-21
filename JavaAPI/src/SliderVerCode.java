@@ -5,6 +5,17 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.LineNumberReader;
 
+import org.python.core.Py;
+import org.python.core.PyFunction;
+import org.python.core.PyInteger;
+import org.python.core.PyObject;
+import org.python.core.PySystemState;
+import org.python.util.PythonInterpreter;
+
+import org.python.util.PythonInterpreter;
+import java.util.Properties;
+
+
 public class SliderVerCode {
 	
 	private String url = "https://id.163yun.com/login?referrer=https://dun.163.com/dashboard&h=yd&fromyd=baiduP2_YZM_CP1934";
@@ -37,11 +48,17 @@ public class SliderVerCode {
 		Process p = null;
 		
 		try {
-			String[] args = new String[] {"python", "/Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py"};
-			//String python_main_file = "python /Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py";
-			String info = "import urllib";
+			
+			// python installed path (need install module: OpenCV/cv2, selenium
+			String python_path = "/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/bin/python3.6";
+			
+			// python file path
+			String python_file_path = "/Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py";
+			String[] args = new String[] {python_path, python_file_path};
+
+			String info = "import ";
 			System.out.println('a');
-			p = Runtime.getRuntime().exec(info);
+			p = Runtime.getRuntime().exec(args);
 			String s;
 			
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(p.getInputStream()));
@@ -50,17 +67,7 @@ public class SliderVerCode {
 			}
 			//p.waitFor();
 			System.out.println('b');
-			
-			
-			//InputStreamReader stdin = new InputStreamReader(p.getInputStream());
-			//LineNumberReader input = new LineNumberReader(stdin);
-			//p = run.exec(python_main_file);;
-			
-			//String line;
-			//while ((line = input.readLine())!= null) {
-			//	System.out.print(line);
-			//}
-			//Thread.currentThread().sleep(1000);
+		
 			System.out.println(p.waitFor());
 		}catch(Exception e) {
 			
@@ -68,6 +75,7 @@ public class SliderVerCode {
 		}finally {
 			p.destroy();
 		}
+		
 	}
 	
 	
@@ -117,7 +125,21 @@ public class SlideVerCode {
 		
 		PythonInterpreter interpreter = new PythonInterpreter();
 		
-		interpreter.execfile("./PythonFile/MoveSlider.py");
+		PySystemState sys = Py.getSystemState();
+		
+		// Python files path
+		sys.path.add("/Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/");
+		// cv2 module path
+		//sys.path.add("/Users/yiqian/miniconda3/lib/python3.6/site-packages/");
+		
+		sys.path.add("/Users/yiqian/jython2.7.0/Lib");
+		interpreter.exec("import sys");
+		interpreter.exec("sys.path.append('')");
+		interpreter.exec("import cv2");
+		interpreter.exec("import importlib");
+		interpreter.exec("import CalSliderSize");
+		interpreter.exec("import FindSliderPos");
+		interpreter.execfile("src/PythonFile/MoveSlider.py");
 		
 	}
 }
