@@ -23,7 +23,7 @@ def find_slider_position(slider_img, bg_img):
     for i in range(20, bg_x-20):
 
         info = "Find position: " + str(i) + '*' + str(slider_y)
-        print(info)
+        #print(info)
         bg_cut_img = bg_img[slider_y+20:slider_y+40, i:i+20]
         hash2 = HashCompareImg.aHash(bg_cut_img)
         n = HashCompareImg.cmpHash(hash1, hash2)

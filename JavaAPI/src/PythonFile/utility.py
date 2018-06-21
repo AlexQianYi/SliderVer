@@ -1,7 +1,5 @@
 
 
-PhoneNumer = '13899592637'
-
 # wangyi url
 url = 'https://id.163yun.com/login?referrer=https://dun.163.com/dashboard&h=yd&fromyd=baiduP2_YZM_CP1934'
 

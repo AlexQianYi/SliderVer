@@ -153,5 +153,4 @@ def move_slider(dr, distance):
 
 if __name__ == '__main__':
 
-    print('t')
     calculate_distance()

@@ -5,14 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.LineNumberReader;
 
-import org.python.core.Py;
-import org.python.core.PyFunction;
-import org.python.core.PyInteger;
-import org.python.core.PyObject;
-import org.python.core.PySystemState;
-import org.python.util.PythonInterpreter;
-
-import org.python.util.PythonInterpreter;
 import java.util.Properties;
 
 
@@ -23,6 +15,8 @@ public class SliderVerCode {
 	private String xpathSlider = "//*[@id=\"bg\"]/div[2]/div/div/div/div/div[1]/form/div[3]/div/div/div[1]/div/div[1]/img[2]";
 	
 	private int move_distance = 0;
+	
+	private String info[];
 	
 	
 
@@ -40,6 +34,7 @@ public class SliderVerCode {
 		if (xpathSlider != null)
 			this.xpathSlider = xpathSlider;
 		
+		info = new String[8];
 		this.FindSlidePos();
 	}
 	
@@ -56,16 +51,18 @@ public class SliderVerCode {
 			String python_file_path = "/Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py";
 			String[] args = new String[] {python_path, python_file_path};
 
-			System.out.println('a');
 			p = Runtime.getRuntime().exec(args);
 			String s;
+			
+			int count = 0;
 			
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(p.getInputStream()));
 			while ((s = bufferedReader.readLine()) != null) {
 				System.out.println(s);
+				this.info[count] = s;
+				count ++;
 			}
 			p.waitFor();
-			System.out.println('b');
 		
 			System.out.println(p.waitFor());
 		}catch(Exception e) {
@@ -83,13 +80,16 @@ public class SliderVerCode {
 	 * @return slider move distance
 	 */
 	public int getMove_distance() {
-		return move_distance;
+		return Integer.parseInt(this.info[7]);
 	}
 	
 	public static void main(String[] args){
 		
 		
 		SliderVerCode find = new SliderVerCode(null, null, null);
+		
+		String result = "the move distance is: " + String.valueOf(find.getMove_distance());
+		System.out.println(result);
 	}
 }
 
