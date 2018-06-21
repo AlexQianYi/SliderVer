@@ -49,7 +49,8 @@ public class SliderVerCode {
 			
 			// python file path
 			String python_file_path = "/Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py";
-			String[] args = new String[] {python_path, python_file_path};
+			
+			String[] args = new String[] {python_path, python_file_path, this.url, this.xpathBG, this.xpathSlider};
 
 			p = Runtime.getRuntime().exec(args);
 			String s;

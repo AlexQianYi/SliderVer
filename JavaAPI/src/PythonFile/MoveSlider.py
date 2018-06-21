@@ -7,19 +7,22 @@ import utility
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import UnexpectedAlertPresentException
 
+import sys
+
 bg_img_dic = {}
 slider_img_dic = {}
 m = 0
 
-def calculate_distance():
+def calculate_distance(url, xpathBG, xpathSlider):
 
-    print('start')
+    print(url, xpathBG, xpathSlider)
+    #print('start')
     try:
         # launch firefox
         dr = webdriver.Firefox(executable_path=utility.firefox_driver_path)
     
         # start firefox
-        dr.get(utility.url)
+        dr.get(url)
     except:
         print('browser open fail')
     else:
@@ -28,8 +31,8 @@ def calculate_distance():
 
     try:
         # find two elements
-        bg_img_element = dr.find_element_by_xpath(utility.bg_xpath)
-        slider_img_element = dr.find_element_by_xpath(utility.slider_xpath)
+        bg_img_element = dr.find_element_by_xpath(xpathBG)
+        slider_img_element = dr.find_element_by_xpath(xpathSlider)
     
         # get url of two elements
         bg_img_url = bg_img_element.get_attribute('src')
@@ -153,4 +156,4 @@ def move_slider(dr, distance):
 
 if __name__ == '__main__':
 
-    calculate_distance()
+    calculate_distance(sys.argv[1], sys.argv[2], sys.argv[3])
