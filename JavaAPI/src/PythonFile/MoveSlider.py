@@ -35,49 +35,66 @@ def calculate_distance():
         bg_img_url = bg_img_element.get_attribute('src')
         slider_img_url = slider_img_element.get_attribute('src')
     except:
-        print('find elements fail')
+        print('find BG slider images fail')
     else:
-        print('find elements succeed')
+        print('find BG slider images succeed')
 
     global bg_img_dic, slider_img_dic, m
 
     if bg_img_url != None and not bg_img_url in bg_img_dic:
-
-        bg_img_ext = bg_img_url.split('.')[-1]                      # .jpg
-        slider_img_ext = slider_img_url.split('.')[-1]              # .png
-
-        bg_file_name = str(m) + '.' + bg_img_ext
-        slider_file_name = str(m) + '.' + slider_img_ext
-
-        # save image file
-        bg_file_data = urllib.request.urlopen(bg_img_url).read()
-        slider_file_data = urllib.request.urlopen(slider_img_url).read()
-
-        bg_path = utility.bg_img_file + bg_file_name
-        slider_path = utility.slider_img_file + slider_file_name
-
-        f_bg = open(bg_path, 'wb')
-        f_slider = open(slider_path, 'wb')
-
-        f_bg.write(bg_file_data)
-        f_slider.write(slider_file_data)
-
-        m += 1
-
-        f_bg.close()
-        f_slider.close()
-
-        print(bg_path, slider_path)
-        # single image file
-        slider_img = cv2.imread(slider_path)
-
-        # bg image
-        bg_image = cv2.imread(bg_path)
+        
+        
+        try:
+            bg_img_ext = bg_img_url.split('.')[-1]                      # .jpg
+            slider_img_ext = slider_img_url.split('.')[-1]              # .png
+    
+            bg_file_name = str(m) + '.' + bg_img_ext
+            slider_file_name = str(m) + '.' + slider_img_ext
+    
+            # save image file
+            bg_file_data = urllib.request.urlopen(bg_img_url).read()
+            slider_file_data = urllib.request.urlopen(slider_img_url).read()
+        except:
+            print('download two images fail')
+        else:
+            print('download two images succeed')
 
 
-        distance = FindSliderPos.find_slider_position(slider_img, bg_image)
+        try:
+            bg_path = utility.bg_img_file + bg_file_name
+            slider_path = utility.slider_img_file + slider_file_name
+    
+            f_bg = open(bg_path, 'wb')
+            f_slider = open(slider_path, 'wb')
+    
+            f_bg.write(bg_file_data)
+            f_slider.write(slider_file_data)
+    
+            m += 1
+    
+            f_bg.close()
+            f_slider.close()
+    
+            print(bg_path, slider_path)
+            # single image file
+            slider_img = cv2.imread(slider_path)
+    
+            # bg image
+            bg_image = cv2.imread(bg_path)
+        except:
+            print('load two images fail')
+        else:
+            print('load two images succeed')
+
+        
+        try:
+            distance = FindSliderPos.find_slider_position(slider_img, bg_image)
+        except:
+            print('calculate distance fail')
+        else:
+            print('calculate distance succeed')
+
         print(distance)
-
         bg_img_dic[bg_img_url] = distance
 
     else:

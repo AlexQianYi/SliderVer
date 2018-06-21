@@ -4,6 +4,8 @@ import HashCompareImg
 
 
 def find_slider_position(slider_img, bg_img):
+    
+    
 
     slider_x, slider_y, slider_height,slider_width = 0,0,0,0
     slider_x, slider_y, slider_height, slider_width = CalSliderSize.calculate_slider_size(slider_img)

@@ -56,7 +56,6 @@ public class SliderVerCode {
 			String python_file_path = "/Users/yiqian/Documents/GitHub/SliderVer/JavaAPI/src/PythonFile/MoveSlider.py";
 			String[] args = new String[] {python_path, python_file_path};
 
-			String info = "import ";
 			System.out.println('a');
 			p = Runtime.getRuntime().exec(args);
 			String s;
@@ -65,7 +64,7 @@ public class SliderVerCode {
 			while ((s = bufferedReader.readLine()) != null) {
 				System.out.println(s);
 			}
-			//p.waitFor();
+			p.waitFor();
 			System.out.println('b');
 		
 			System.out.println(p.waitFor());
